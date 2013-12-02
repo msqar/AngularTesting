@@ -1,0 +1,23 @@
+<div class="container">
+	<h2>View 1</h2>
+	Name: 
+	<br />
+	<form name="myForm">
+		<input type="text" name="name" ng-model="name" required />
+		<span class="error-span" ng-show="myForm.name.$error.required">Required!</span>
+		<br />
+		<ul>
+			<li ng-repeat="cust in customers | filter:name | orderBy:'name'">{{cust.name}} - {{cust.city}}</li>
+		</ul> 
+	</form>
+	
+	<br/>
+	Customer Name: <br/>
+	<input type="text" ng-model="newCustomer.name" />
+	<br/>
+	Customer City: <br/>
+	<input type="text" ng-model="newCustomer.city" />
+	<br/>
+	<button ng-click="addCustomer()">Add Customer</button>
+	<br/>
+</div>

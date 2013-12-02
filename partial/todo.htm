@@ -1,0 +1,22 @@
+<div class="container" ng-controller="ToDoController">
+	<h2>To Do List: {{getToDoListLength()}}</h2>
+	List:
+	<br />
+	<ul>
+		<li class="todo-li" ng-repeat="todo in todos"><input type="checkbox" ng-checked="{{todo.done}}">
+			<span ng-click="alertTask(todo.task)" >{{todo.task}}</span>
+			<img class="remove-task-li-icon" ng-click="removeTask(todo.task)" src="img/remove.png"/>
+		</li>
+	</ul>
+
+	<br/>
+	Task Name: <br/>
+	<input type="text" ng-model="newToDoText" />
+	<br/>
+	Is it done?: <input type="checkbox" ng-model="newToDoDone" />
+	<br/><br/>
+	<button ng-click="addToDo()">Add Task!</button>
+	<br/><br/>
+
+	<a href="#/view1">View 1</a>
+</div>
