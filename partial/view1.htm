@@ -3,7 +3,7 @@
 	Name: 
 	<br />
 	<form name="myForm">
-		<input type="text" name="name" ng-model="name" required />
+		<input type="text" name="name" ng-model="name" required style="width: 300px"/>
 		<span class="error-span" ng-show="myForm.name.$error.required">Required!</span>
 		<br />
 		<ul>
@@ -13,10 +13,10 @@
 	
 	<br/>
 	Customer Name: <br/>
-	<input type="text" ng-model="newCustomer.name" />
+	<input type="text" ng-model="newCustomer.name" style="width: 300px"/>
 	<br/>
 	Customer City: <br/>
-	<input type="text" ng-model="newCustomer.city" />
+	<input type="text" ng-model="newCustomer.city" style="width: 300px"/>
 	<br/>
 	<button ng-click="addCustomer()">Add Customer</button>
 	<br/>

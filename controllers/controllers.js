@@ -107,4 +107,13 @@ function PasswordController($scope) {
 			$scope.strength = "";
 		}
 	};
+
+	$scope.sayHi = function() {
+		alert("I'm saying Hi!");
+	};
+
+	$scope.callHome = function(message) {
+		alert("Called home! " + message);
+	};
 }
+

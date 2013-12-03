@@ -32,3 +32,7 @@ body {
 .menu-item-container a {
 	text-decoration: none ;
 }
+
+.view-container {
+	margin-left: 20px;
+}
