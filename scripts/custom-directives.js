@@ -47,7 +47,9 @@ demoApp.directive("flash", function() {
 
 demoApp.directive("enter", function() {
 	return function(scope, element, attrs) {
+		element.addClass("panel");
 		element.bind("mouseenter", function() {
+			element.removeClass("panel");
 			element.addClass(attrs.enter);
 		})
 	}
@@ -60,6 +62,7 @@ demoApp.directive("leave", function() {
 			//scope.sayHi(); -- del PasswordController
 			//scope.$apply("sayHi()");
 			//scope.$apply(attrs.enter); //pasandole como parámetro "sayHi()"
+			element.addClass("panel");
 			element.removeClass(attrs.enter);
 		})
 	}
@@ -70,21 +73,21 @@ demoApp.directive("leave", function() {
 demoApp.directive("superhero", function() {
 	return {
 		restrict: 'E',
-		scope: {},
+		scope: true,
 		controller: function ($scope) {
 
 			$scope.abilities = [];
 
 			this.addStrength = function() {
-				$scope.abilities.push("strength");
+				$scope.abilities.push("strong");
 			}
 
 			this.addSpeed = function() {
-				$scope.abilities.push("speed");
+				$scope.abilities.push("fast");
 			}
 
 			this.addFlight = function() {
-				$scope.abilities.push("flight");
+				$scope.abilities.push("flies");
 			}
 		},
 
