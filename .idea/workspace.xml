@@ -26,25 +26,27 @@
       <file leaf-file-name="main.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="49" selection-start="499" selection-end="499" vertical-scroll-proportion="-0.0" vertical-offset="221" max-vertical-offset="646">
+            <state line="13" column="49" selection-start="499" selection-end="499" vertical-scroll-proportion="-5.6538463" vertical-offset="74" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom-directives.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom-directives.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/custom-directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="39" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
-              <folding />
+            <state line="164" column="5" selection-start="3697" selection-end="3697" vertical-scroll-proportion="0.36068377" vertical-offset="2577" max-vertical-offset="3196">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom-filters.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/custom-filters.js">
+      <file leaf-file-name="password.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partial/password.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="291" selection-end="291" vertical-scroll-proportion="0.19883041" vertical-offset="0" max-vertical-offset="1026">
+            <state line="41" column="37" selection-start="1248" selection-end="1248" vertical-scroll-proportion="-14.961538" vertical-offset="308" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -65,11 +67,19 @@
       <MyDateState />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/custom-directives.js" />
+        <option value="$PROJECT_DIR$/partial/password.htm" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1186" />
+    <option name="x" value="171" />
+    <option name="y" value="527" />
+    <option name="width" value="1400" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -155,6 +165,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="partial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularTesting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularTesting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -172,6 +196,11 @@
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\AngularTesting\scripts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -264,14 +293,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <frame x="171" y="527" width="1400" height="756" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -308,14 +337,9 @@
     <entry file="file://$PROJECT_DIR$/scripts/custom-directives.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="0" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="499" selection-end="499" vertical-scroll-proportion="-0.0" vertical-offset="221" max-vertical-offset="646">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -324,17 +348,33 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/custom-directives.js">
+    <entry file="file://$PROJECT_DIR$/scripts/custom-filters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
+        <state line="12" column="28" selection-start="291" selection-end="291" vertical-scroll-proportion="0.34228188" vertical-offset="0" max-vertical-offset="596">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/custom-filters.js">
+    <entry file="file://$PROJECT_DIR$/main.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="291" selection-end="291" vertical-scroll-proportion="0.19883041" vertical-offset="0" max-vertical-offset="1026">
+        <state line="13" column="49" selection-start="499" selection-end="499" vertical-scroll-proportion="-5.6538463" vertical-offset="74" max-vertical-offset="646">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partial/password.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="37" selection-start="1248" selection-end="1248" vertical-scroll-proportion="-14.961538" vertical-offset="308" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/custom-directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="5" selection-start="3697" selection-end="3697" vertical-scroll-proportion="0.36068377" vertical-offset="2577" max-vertical-offset="3196">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
