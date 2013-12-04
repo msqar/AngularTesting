@@ -166,17 +166,26 @@ demoApp.directive("panel", function() {
 })
 
 demoApp.directive("dumbPassword", function() {
-    return {
-        restrict: "E",
-        replace: true,
-        template: '<div> <input type="text" ng-model="model.input"><div>{{model.input}}</div></div>',
-        link: function(scope, element) {
+	var validElement = angular.element("<div>{{model.input}}</div>");
+
+	this.link = function(scope, element) {
             scope.$watch("model.input", function(value) {
                 if(value === "password") {
-                    element.children(1).toggleClass("alert-box alert")
+                    validElement.toggleClass("alert-box alert");
                 }
             })
         }
+
+
+    return {
+        restrict: "E",
+        replace: true,
+        template: '<div> <input type="text" ng-model="model.input"></div>',
+        compile: function(tElem) {
+        	tElem.append(validElement);
+
+        	return link;
+        }        
     }
 })
 
