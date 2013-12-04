@@ -139,3 +139,29 @@ demoApp.directive("phone", function() {
 	}
 });
 
+demoApp.directive("anotherPhone", function() {
+	return {
+		restrict: "A",
+		scope: {
+			number: "@",
+			network: "=",
+			makeCall: "&"
+		},
+		template: '<div class="panel">Number: {{number}} Network: <select ng-model="network" ng-options="net for net in networks"></div>' +
+			'<input type="text" ng-model="value">' +
+			'<button class="button" ng-click="makeCall({number:number, message:value})">Call!</button>',
+		link: function(scope) {
+			scope.networks = ["Verizon", "AT&T", "Sprint"];
+			scope.network = scope.networks[0]
+		}
+	}
+})
+
+demoApp.directive("panel", function() {
+	return {
+		restrict: "E",
+		transclude: true,
+		template: '<div class="panel">This is a transclusion test<div ng-transclude></div></div>'
+	}
+})
+

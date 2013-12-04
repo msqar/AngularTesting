@@ -22,6 +22,11 @@ var demoApp = angular.module('demoApp', ['ngRoute']);
 					controller: 'PasswordController',
 					templateUrl: 'partial/password.htm'
 				})
+			.when('/phone',
+				{
+					controller: 'PhoneController',
+					templateUrl: 'partial/phone.htm'
+				})
 			.otherwise({ redirectTo: '/view1'});
 });
 
@@ -115,5 +120,11 @@ function PasswordController($scope) {
 	$scope.callHome = function(message) {
 		alert("Called home! " + message);
 	};
+}
+
+function PhoneController($scope) {
+	$scope.leaveVoiceMail = function(number, message) {
+		alert("Number: " + number + " said: " + message);
+	}
 }
 
